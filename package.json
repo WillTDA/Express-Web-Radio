@@ -1,0 +1,30 @@
+{
+  "name": "express-web-radio",
+  "version": "1.0.0",
+  "description": "A simple, easily configurable web radio implementation for Express.js. Read MP3 files, and stream them on app routes.",
+  "main": "src/index.js",
+  "funding": {
+    "type": "buymecoffee",
+    "url": "https://www.buymeacoffee.com/willtda"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WillTDA/Express-Web-Radio"
+  },
+  "keywords": [
+    "express",
+    "radio",
+    "middleware",
+    "mp3",
+    "music"
+  ],
+  "author": "WillTDA",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@dropb/ffprobe": "^3.0.0",
+    "throttle": "^1.0.3"
+  }
+}
